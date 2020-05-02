@@ -7,6 +7,7 @@
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"ts-node": "ts-node",
 		"env-config": "ts-node automate Staging",
+		"test-local": "ts-node run-local",
 		"local": "ts-node local"
 	},
 	"repository": {

@@ -16,8 +16,5 @@ log(chalk.red('================================================'));
 log(chalk.green('Configuration : ') + chalk.blue(process.argv[2]));
 log(chalk.green('API URL : ') + chalk.blue(config.apiUrl));
 log(chalk.green('Storage URL : ') + chalk.blue(config.storageApiUrl));
-log(
-	chalk.green('Powered By ') +
-		chalk.blue.underline.bold('Infini System Pvt. Ltd.'),
-);
+log(chalk.green('Powered By ') + chalk.blue.underline.bold('Company Name'));
 log(chalk.red('================================================'));
